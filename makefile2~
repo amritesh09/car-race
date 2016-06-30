@@ -1,0 +1,7 @@
+all: p1 
+p1: src/car_world.c
+	gcc -Wall -I/usr/include/   -c -o car_world.o car_world.c
+	gcc -Wall -I/usr/include/ -o car_world -L/usr/X11R6/lib  car_world.o -lX11 -lXi -l
+	glut -lGL -lGLU -lm   
+	rm car_world.o
+

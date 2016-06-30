@@ -1,0 +1,5 @@
+all: p1 
+p1: png.c
+	gcc -Wall -ansi -lGL -lGLU -lglut `libpng16-config --cflags --libs` -lpng  png.c 
+	./a.out car5.png
+
