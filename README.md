@@ -4,6 +4,8 @@ Usage:
 	make
 
 	To run go to "output/car_world".
+	
+##Instructions to play:
 
 Click on New Game or press Space bar to start the game.
 
@@ -15,11 +17,13 @@ Use pageup and pagedown to change view angle.
 
 ##Implementation:
 
-We have used OPENGL Utility Kit to complete the task.
+This a simple network based multi-player car race game implemented using 
+openGL and C++. 
+We have modeled the 3-D car using blender. 
 
-The main program is car_world.c.
-
-We have used bitmap images in the folder "resources" to load images by texture rendering.
+There are multiple tracks.
+You can collect bonus scores.
+You can play against the computer or with over players via network.
 
 
 
