@@ -23,6 +23,7 @@ We have modeled the 3-D car using blender.
 
 There are multiple tracks.
 You can collect bonus scores.
+Bonus scores would boost your speed.
 You can play against the computer or with over players via network.
 
 
